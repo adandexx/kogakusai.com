@@ -97,14 +97,16 @@ img{
 
 .about{
     margin-top: 200px;
+    width: 80%;
+    margin-left: 10%;
 }
 .about-title{
     text-align: center;
     font-size: 50px;
     color: #f7c3bf;
+    margin-bottom: 100px;
 }
 .about-list{
-    padding: 100px;
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -128,6 +130,74 @@ img{
 
 /* ---------------------sns---------------------- */
 
+.sns{
+    margin-top: 200px;
+    width: 80%;
+    margin-left: 10%;
+}
+.sns-title{
+    text-align: center;
+    font-size: 50px;
+    color: #f7c3bf;
+}
+.sns-sub{
+    text-align: center;
+    font-size: 25px;
+    color: #f7c3bf;
+    margin-bottom: 100px;
+}
+.flex-wrap{
+    display: flex;
+}
+.flex-wrap-pc{
+    display: flex;
+}
+.twitter{
+    background-color: #efebe0;
+    width: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.twitter-title{
+    display: flex;
+}
+.sns-icon{
+    width: 80px;
+}
+.sns-name{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 20px;
+    text-align: center;
+}
+.twitter-umekomi{
+    margin-top: 20px;
+}
+.sns-link{
+    color: black;
+}
+.sns-other{
+    width: 50%;
+    margin-left: 20px;
+}
+.line{
+    background-color: #efebe0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    height: 255px;
+}
+.instagram{
+    background-color: #efebe0;
+    padding: 20px;
+    border-radius: 10px;
+    height: 255px;
+}
+.sns-desc{
+    margin-top: 20px;
+    font-size: 20px;
+}
 /* ---------------------footer----------------------- */
 
 .footer{
@@ -135,6 +205,7 @@ img{
     font-weight: bold;
     text-align: center;
     font-size: 20px;
+    margin-top: 100px;
     margin-bottom: 20px;
 }
 
@@ -166,6 +237,9 @@ img{
     /* about---------------------------------------- */
     .about{
         margin-top: 100px;
+        width: 100%;
+        margin-left: 0;
+
     }
     .about-title{
         text-align: center;
@@ -194,6 +268,35 @@ img{
     .about-desc{
         padding: 10px;
         font-size: 16px;
+    }
+    /* sns----------------------------------------------- */
+    .sns{
+        width: 90%;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: auto;
+    }
+    .flex-wrap-pc{
+        display: block;
+    }
+    .twitter{
+        width: fit-content;
+        margin-right: 0;
+    }
+    .twitter-umekomi{
+        width: fit-content;
+    }
+    .sns-other{
+        width: 100%;
+        margin: 0;
+        margin-top: 40px;
+        height: fit-content;
+    }
+    .line{
+        height: fit-content;
+    }
+    .instagram{
+        height: fit-content;
     }
 }
 
