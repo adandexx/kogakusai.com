@@ -100,7 +100,7 @@ img{
 }
 .about-title{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     color: #f7c3bf;
 }
 .about-list{
@@ -140,7 +140,7 @@ img{
 
 /* スマホ用################################################################ */
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:900px) {
     /* title------------------------------------ */
     .title{
         font-size: 30px;
@@ -195,4 +195,20 @@ img{
         padding: 10px;
         font-size: 16px;
     }
+}
+
+
+
+/* under construction */
+.const{
+    margin-top: 200px;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+}
+.const-title{
+    font-size: 40px;
+}
+.const-img{
+    width: 200px;
 }
