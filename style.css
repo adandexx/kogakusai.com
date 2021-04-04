@@ -1,189 +1,92 @@
-* {
-    margin: 0;
+*{
     padding: 0;
-}
-
-/*ページ読み込んだ時にアニメーションするやつ-------------------------------*/
-
-.start {
-	background:#ffffff;
-	position: fixed;
-    margin-right: auto;
-    margin-left: auto;
-	height: 100%;
-	width: 100%;
-	z-index: 9000;
-}
-.start p {
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	display: none;
-	z-index: 9999;
-	width: 280px;
-}
-
-/*水平線の設定---------------------------------------------------------*/
-
-.hr_a{
-    margin-top: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: #efebe0;
-}
-
-.hr_b{
-    color: #efebe0;
-    border-top: dotted;
-    border-bottom: none;
+    margin: 0;
 }
 
 body{
-    font-family: "Noto Sans JP";
+    font-family: 'Kiwi Maru', serif;
+}
+
+a{
+    text-decoration: none;
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
-/*header------------------------------------------------------------------*/
+.notice{
+    color: white;
+    background-color: #8ac8cf;
+    padding: 10px;
+    text-align: center;
+}
+.notice-content{
+    font-size: 30px;
+}
 
 .header{
-    margin-top: 0px;
-    padding-top: 0px;
-    height: 100px;
-    background-color: #f7c3bf;
-    color:#efebe0;
     display: flex;
-    justify-content: space-between;
-    position: sticky;
+    color: #f7c3bf;
+    height: 100px;
+    font-weight: bold;
 }
-
 .title{
-    margin-top: 25px;
-    margin-left: 25px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .header-nav{
     display: flex;
+    list-style: none;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: 0%;
 }
 
 .header-nav li{
-    margin-top: 30px;
-    margin-right: 30px;
-    list-style: none;
-    font-size: 25px;
+    font-size: 20px;
+    margin-right: 50px;
+    transition: all 0.1s ease 0s;
 }
-
-.header-nav a{
-    color: #efebe0;
-    text-decoration: none;
-}
-.header-nav a:hover{
+.header-nav li:hover{
+    transform: scale(1.2);
     color: #8ac8cf;
 }
 
-/*about---------------------------------------------------------------------------------*/
 
-.photo_slider{
-    height: 400px;
-    background-color: palevioletred;
+.about{
+    margin-top: 200px;
 }
-
-.about_photos{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 75px;
-}
-
-.about_photos li{
-    width: 30%;
-    list-style: none;
-    height :400px;
-}
-.about_photos_p{
-    padding: 20px;
-    font-size: 20px;
-    color: #f7c3bf;
-    text-align: left;
-}
-
-/*SNS-------------------------------------------------------------------------------------*/
-
-.sns_photos{
-    display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 75px;
-}
-
-.sns_photos li{
-    width: 30%;
-    list-style: none;
-    height :400px;
+.about-title{
     text-align: center;
-}
-
-.sns_photos img{
-    width: 60%;
-}
-
-.sns_photos_p{
-    padding: 20px;
-    font-size: 20px;
+    font-size: 40px;
     color: #f7c3bf;
-    text-align: left;
 }
-
-/*history---------------------------------------------------------------------------------*/
-
-.history1{
+.about-list{
     display: flex;
-    margin-top: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
     justify-content: space-between;
-    height: 1000px;
-}
-
-.backnumber{
-    width: 45%;
-}
-
-.backnumber li{
     list-style: none;
+    margin: 20px;
+}
+.about-list li{
+    margin: 20px;
+    background-color: #efebe0;
+    border-radius: 10px;
+}
+.about-picture{
+    border-radius: 10px 10px 0 0;
+}
+.about-desc{
+    padding: 5px;
     font-size: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
-
-.backnumber a{
-    color: #8ac8cf ;
-    text-decoration: none;
-}
-
-.backnumber a:hover{
-    color: #efebe0;
-}
-
-.twitter{
-    width: 45%;
-}
-
-/*fotter----------------------------------------------------------------------------------*/
 
 .footer{
-    margin-top: 30px;
-    height: 80px;
-    background-color: #f7c3bf;
-    padding: 30px;
+    color: #f7c3bf;
+    font-weight: bold;
     text-align: center;
-    color:#efebe0; 
     font-size: 20px;
+    margin-bottom: 20px;
 }
