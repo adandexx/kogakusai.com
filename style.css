@@ -144,12 +144,12 @@ img{
     text-align: center;
     font-size: 25px;
     color: #f7c3bf;
-    margin-bottom: 100px;
 }
 .flex-wrap{
     display: flex;
 }
 .flex-wrap-pc{
+    margin-top: 100px;
     display: flex;
 }
 .twitter{
@@ -275,6 +275,9 @@ img{
         justify-content: center;
         margin-left: 5%;
         margin-right: auto;
+    }
+    .sns-sub{
+        display: none;
     }
     .flex-wrap-pc{
         display: block;
