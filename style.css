@@ -8,7 +8,10 @@ body{
   
     100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
   
-  }
+}
+
+/* PC用をとりあえず書いて、スマホ用は下部で修正 */
+
 /* ------------------content------------------ */
 *{
     padding: 0;
@@ -74,12 +77,19 @@ img{
     /* color: #8ac8cf; */
 }
 
+.sp-btn{
+    display: none;
+}
+
 /* -----------------------------picture------------------------ */
 
 .main-picture{
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+}
+.main-picture-sp{
+    display: none;
 }
 
 
@@ -126,4 +136,63 @@ img{
     text-align: center;
     font-size: 20px;
     margin-bottom: 20px;
+}
+
+/* スマホ用################################################################ */
+
+@media screen and (max-width:800px) {
+    /* title------------------------------------ */
+    .title{
+        font-size: 30px;
+        padding: 25px;
+        margin: 0;
+    }
+    .header-nav{
+        display: none;
+    }
+    .sp-btn{
+        display: block;
+        font-size: 55px;
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    /* picture------------------------------------- */
+    .main-picture{
+        display: none;
+    }
+    .main-picture-sp{
+        display: inline;
+    }
+    /* about---------------------------------------- */
+    .about{
+        margin-top: 100px;
+    }
+    .about-title{
+        text-align: center;
+        font-size: 40px;
+        color: #f7c3bf;
+    }
+    .about-list{
+        display: inline;
+        padding: 100px;
+        list-style: none;
+    }
+    .about-list li{
+        display: flex;
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 40px;
+        background-color: #efebe0;
+        border-radius: 10px;
+    }
+    .about-picture{
+        border-radius: 10px 0 0 10px;
+        width: 50%;
+        object-fit: cover;
+        margin-bottom: 0;
+    }
+    .about-desc{
+        padding: 10px;
+        font-size: 16px;
+    }
 }
