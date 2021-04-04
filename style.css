@@ -13,6 +13,7 @@ a{
 
 img{
     max-width: 100%;
+    object-fit: cover;
 }
 
 .notice{
@@ -72,10 +73,12 @@ img{
 }
 .about-list li{
     margin: 20px;
+    width: 30%;
     background-color: #efebe0;
     border-radius: 10px;
 }
 .about-picture{
+    height: 300px;
     border-radius: 10px 10px 0 0;
 }
 .about-desc{
