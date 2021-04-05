@@ -275,19 +275,25 @@ img{
         justify-content: center;
         margin-left: 5%;
         margin-right: auto;
+        overflow: hidden;
     }
     .sns-sub{
         display: none;
     }
     .flex-wrap-pc{
-        display: block;
+        display: inline;
     }
     .twitter{
-        width: fit-content;
-        margin-right: 0;
+        margin: 0;
+        margin-top: 100px;
+        padding: 0;
+        width: 100%;
+    }
+    .twitter-wrap{
+        padding: 20px;
     }
     .twitter-umekomi{
-        width: fit-content;
+        width: 
     }
     .sns-other{
         width: 100%;
