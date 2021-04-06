@@ -65,7 +65,9 @@ html{
     margin-top: 20px;
     margin-left: 40px;
 }
-
+.sp-title{
+    display: none;
+}
 .header-nav{
     display: flex;
     list-style: none;
@@ -84,7 +86,7 @@ html{
     /* color: #8ac8cf; */
 }
 
-.sp-btn{
+.sp-menu{
     display: none;
 }
 
@@ -241,19 +243,44 @@ html{
 
 @media screen and (max-width:900px) {
     /* title------------------------------------ */
+    .header{
+        text-align: center;
+        margin-left: auto;
+    }
     .title{
+        display: none;
+    }
+    .sp-title{
+        display: block;
+        font-weight: 400;
         font-size: 30px;
         padding: 25px;
         margin: 0;
+        margin: auto;
     }
     .header-nav{
         display: none;
     }
-    .sp-btn{
+    /* smartphone menu--------------------------- */
+    .sp-menu{
         display: block;
-        font-size: 55px;
-        margin-left: auto;
-        margin-right: 20px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .sp-menu ul{
+        display: flex;
+        list-style: none;
+        /* margin: 5%; */
+    }
+    .sp-menu li{
+        text-align: center;
+    }
+    .sp-menu img{
+        width: 40%;
+    }
+    .menu-desc{
+        font-size: 10px;
+        color: #f7c3bf;
     }
     /* picture------------------------------------- */
     .main-picture{
