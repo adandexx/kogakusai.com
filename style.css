@@ -31,6 +31,10 @@ img{
     object-fit: cover;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* -------------------------notice------------------------- */
 
 .notice{
@@ -41,6 +45,9 @@ img{
 }
 .notice-content{
     font-size: 30px;
+}
+.notice-sub{
+    font-size: 20px;
 }
 
 
@@ -165,6 +172,7 @@ img{
 .sns-icon{
     width: 80px;
     height: 80px;
+    object-fit: contain;
 }
 .sns-name{
     font-size: 30px;
