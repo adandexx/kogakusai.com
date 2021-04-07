@@ -148,6 +148,7 @@ html{
     background-color: #f7c3bf;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
 }
 .new{
     width: 40%;
@@ -397,17 +398,19 @@ html{
         margin-bottom: 20px;
     }
     .sns-icon{
-        width: 80px;
         height: 80px;
+        width: 100px;
     }
     .sns-icon img{
         height: 80%;
         margin: 10%;
+        object-fit: contain;
     }
     .sns-desc{
         font-size: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        width: 70%;
     }
     .sns-jump{
     }
