@@ -34,6 +34,10 @@ html{
     scroll-behavior: smooth;
 }
 
+span{
+    display: inline-block;
+}
+
 /* -------------------------notice------------------------- */
 
 .notice{
@@ -116,7 +120,10 @@ html{
 .about-sub{
     text-align: center;
     font-size: 25px;
-    color: #f7c3bf;
+    color: #8ac8cf;
+}
+.about-link{
+    color: #8ac8cf;
 }
 .about-list{
     margin-top: 100px;
@@ -205,13 +212,17 @@ html{
     display: flex;
     padding: 10px;
     border-radius: 10px;
-    width: 30%;
+    width: 28%;
     color: black;
+    transition: all 0.3s ease 0s;
+}
+.sns-list a:hover{
+    transform: scale(0.9);
 }
 .sns-list-li{
     background-color: #f7c3bf;
     display: flex;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
 }
 .sns-icon{
@@ -220,9 +231,9 @@ html{
     margin-left: 10px;
 }
 .sns-icon img{
-    height: 80px;
+    height: 60px;
     vertical-align: middle;
-    margin: auto;
+    margin: 5px;
 }
 .sns-desc{
     font-size: 20px;
@@ -330,7 +341,7 @@ html{
         color: #f7c3bf;
     }
     .about-sub{
-        display: none;
+        margin-bottom: 100px;
     }
     .about-list{
         display: inline;
@@ -338,7 +349,6 @@ html{
         list-style: none;
     }
     .about-list li{
-        display: flex;
         width: 90%;
         margin-left: 5%;
         margin-bottom: 40px;
@@ -346,14 +356,14 @@ html{
         border-radius: 10px;
     }
     .about-picture{
-        border-radius: 10px 0 0 10px;
-        width: 50%;
+        border-radius: 10px 10px 0 0;
+        width: 100%;
         object-fit: cover;
         margin-bottom: 0;
     }
     .about-desc{
         padding: 10px;
-        font-size: 16px;
+        font-size: 20px;
     }
     /* ---------------new-twitter------------------------- */
     .new-twitter{
@@ -400,10 +410,12 @@ html{
     .sns-icon{
         height: 80px;
         width: 100px;
+        margin-left: 0;
     }
     .sns-icon img{
         height: 80%;
         margin: 10%;
+        margin-left: 0;
         object-fit: contain;
     }
     .sns-desc{
