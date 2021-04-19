@@ -38,6 +38,10 @@ span{
     display: inline-block;
 }
 
+.title-link{
+    color: #f7c3bf;
+}
+
 /* -------------------------notice------------------------- */
 
 .notice{
@@ -273,6 +277,87 @@ span{
     font-size: 25px;
     color: #f7c3bf;
     margin-top: 100px;
+}
+
+/* -----------------------sawakai--------------------- */
+.sawakai-title{
+    text-align: center;
+    font-size: 50px;
+    background-color: #f7c3bf;
+    color: white;
+    padding-top: 100px;
+}
+.sawakai-sub{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    font-size: 25px;
+    background-color: #f7c3bf;
+    color: white;
+}
+.sawakai-next{
+    text-align: center;
+    font-size: 50px;
+    color: #f7c3bf;
+    padding-top: 200px;  
+}
+.sawakai-desc{
+    color: #f7c3bf;
+    text-align: center;
+    margin-top: 100px;
+}
+.sawakai-desc li{
+    font-size: 30px;
+}
+.sawakai-uldesc{
+    font-size: 25px;
+    color: #f7c3bf;
+    text-align: center;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.sawakai-doko{
+    background-color: #f7c3bf;
+}
+.way-nav{
+    width:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.way-nav li{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.way-nav p{
+    font-size: 25px;
+    color: #f7c3bf;
+    margin: auto;
+    margin-left: 20px;
+    vertical-align: middle;
+    padding: 15px;
+}
+.way-img{
+    height: 200px;
+    width: 400px;
+    margin-right: 20px;
+    border-radius: 10px 0 0 10px;
+}
+.question{
+    margin-top: 100px;
+    color: #f7c3bf;
+    font-size: 25px;
+    text-align: center;
+}
+.question a{
+    color: #8ac8cf;
 }
 
 /* スマホ用################################################################ */
