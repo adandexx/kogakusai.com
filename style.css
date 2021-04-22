@@ -640,7 +640,57 @@ span{
         height: 200px;
         border-radius: 10px 10px 0 0;
     }
-
+    /* -------------local-------------------- */
+    .local-menu{
+        font-size: 20px;
+    }
+    .guest-title{
+        font-size: 20px;
+    }
+    .guest-about{
+        font-size: 20px;
+    }
+    .guest-notice{
+        font-size: 20px;
+    }
+    .sponsor-title{
+        font-size: 25px;
+    }
+    .sponsor-about{
+        font-size: 20px;
+    }
+    .question{
+        font-size: 20px;
+    }
+    /* -------------contact------------------ */
+    .contact-title{
+        font-size: 25px;
+    }
+    .contact-icon{
+        width: 100px;
+        object-fit: contain;
+        padding: 5px;
+    }
+    .contact-ul{
+        width: 100%;
+    }
+    .contact-ul li{
+        font-size: 20px;
+        width: 90%;
+        margin-left: 5%;
+        padding: 0;
+    }
+    .contact-p{
+        margin: auto;
+        padding: 0;
+        font-size: 20px;
+        margin-left: auto;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .contact-sns{
+        font-size: 20px;
+    }
 /* under construction */
 .const{
     margin-top: 200px;
