@@ -367,7 +367,9 @@ span{
     color: white;
     text-decoration: underline;
 }
-
+.sawakai-ullink{
+    color: #8ac8cf;
+}
 /* local------------------------------------------------ */
 .local-menu{
     display: flex;
