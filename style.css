@@ -367,7 +367,9 @@ span{
     color: white;
     text-decoration: underline;
 }
-
+.sawakai-ullink{
+    color: #8ac8cf;
+}
 /* local------------------------------------------------ */
 .local-menu{
     display: flex;
@@ -466,8 +468,9 @@ span{
     color: #f7c3bf;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 10%;
     width: 80%;
+    margin-left: 10%;
+    text-align: center;
 }
 .contact-link{
     color: #f7c3bf;
@@ -667,9 +670,9 @@ span{
         font-size: 25px;
     }
     .contact-icon{
-        width: 100px;
+        width: 80px;
         object-fit: contain;
-        padding: 5px;
+        padding: 20px;
     }
     .contact-ul{
         width: 100%;
